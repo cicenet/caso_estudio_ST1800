@@ -24,6 +24,14 @@ En  este Jupyter Notebbok se tienen las instrucciones del pre-procesamiento de l
    - Limpieza de registros con datos nulos  <br>
    - Contabilización de palabras inicial<br>
    - Remoción de stopwords<br>
+ 
  ### 2. Implementación de Casos de Negocios
 - *indexacion_busqueda_metapy* <br>
-Tiene la implementación de 
+Tiene la implementación de la indexación del dataset completo de news.csv y del proceso de búsqueda de noticias a partir de unos términos de una consulta (query).<br>
+Para esto se tienen:
+- En el directorio data, están dos subdirectorios:<br>
+   - news: que contiene el dataset completo de noticias<br>
+   - mini-news: un selección de las primeras 20.000 noticias del dataset, que se debieron de utilizar, dado la limitada capacidad del procesamiento del servidor que se tuvo disponible. 
+
+
+- *modelado_topicos_news_using_pyspark*
