@@ -15,3 +15,15 @@
   v.	Agrupamiento (en SparkML o AWS comprehend)<br>
 
 ## Estructura de Archivos y directorios
+Para dar cumplimiento a las actividades propuestas se tienen los siguientes archivos:
+
+### 1. Entendimiento de los datos
+- *analisis_descriptivo_news.ipynb* <br>
+En  este Jupyter Notebbok se tienen las instrucciones del pre-procesamiento de la información, que incluye:
+   - Carga de los datos <br>
+   - Limpieza de registros con datos nulos  <br>
+   - Contabilización de palabras inicial<br>
+   - Remoción de stopwords<br>
+ ### 2. Implementación de Casos de Negocios
+- *indexacion_busqueda_metapy* <br>
+Tiene la implementación de 
