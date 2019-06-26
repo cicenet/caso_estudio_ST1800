@@ -31,14 +31,14 @@ Tiene la implementación de la indexación del dataset completo de news.csv y de
 Para esto se tienen:
 - En el directorio data, están dos subdirectorios:<br>
    - news: que contiene el dataset completo de noticias<br>
-   - mini-news: un selección de las primeras 20.000 noticias del dataset, que se debieron de utilizar, dado la limitada capacidad del procesamiento del servidor que se tuvo disponible. 
+   - mini-news: un selección de las primeras 20.000 noticias del dataset, que se debieron de utilizar, dado la limitada capacidad del procesamiento del servidor que se tuvo disponible. <br>
 
-*modelado_topicos_news_using_pyspark.ipynbk*
-Para este archivo sólo se procesaron 20.000 noticias del dataset, y aplicando el algoritmo de LDA se realizó una clasificación no supervisada de las noticas en diez tópicos.
+*modelado_topicos_news_using_pyspark.ipynbk*<br>
+Para este archivo sólo se procesaron 20.000 noticias del dataset, y aplicando el algoritmo de LDA se realizó una clasificación no supervisada de las noticas en diez tópicos.<br>
 
-*agrupamientos_articulos_pyspar.ipynbk*
-Para este archivo sólo se procesaron 20.000 noticias del dataset, y aplicando el algoritmo de K-means se realizó una clasificación no supervisada de las noticas en diez grupos. El resultado final está en un archivo denominado clustertable_news.csv.
+*agrupamientos_articulos_pyspar.ipynbk*<br>
+Para este archivo sólo se procesaron 20.000 noticias del dataset, y aplicando el algoritmo de K-means se realizó una clasificación no supervisada de las noticas en diez grupos. El resultado final está en un archivo denominado clustertable_news.csv.<br>
 
-*analisis_sentimientos_news_using_pyspark.ipynb*
+*analisis_sentimientos_news_using_pyspark.ipynb*<br>
 Para este archivo sólo se procesaron 20.000 noticias del dataset, y aplicando el algoritmo de SentimentIntensityAnalyzer de NLTK se realizó una clasificación de cómo se califica cada noticia(Negativa, Neutra o Positiva)
 
